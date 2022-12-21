@@ -13,7 +13,6 @@ var post_data = {
     nonce: utils.noncer(),
 }
 var token = utils.genSignature(appKey, post_data);
-post_data.appKey = appKey;
 post_data.token = token;
 // 2.设置私有参数
 // 举报类型. 0:外挂,1:工作室,2:言语辱骂,3:违规宣传,4:消极游戏|演员|挂机,5:游戏漏洞|bug

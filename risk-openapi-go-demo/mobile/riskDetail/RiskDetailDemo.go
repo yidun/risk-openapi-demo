@@ -68,7 +68,6 @@ func main() {
 	var token = genSignature(appKey, appId, timestamp, nonce)
 	params := map[string]interface{}{
 		"appId":         appId,
-		"appKey":        appKey,
 		"timestamp":     timestamp,
 		"nonce":         nonce,
 		"token":         token,

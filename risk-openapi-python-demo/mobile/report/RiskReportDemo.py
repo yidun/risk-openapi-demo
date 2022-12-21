@@ -36,7 +36,6 @@ class RiskReportDemo(object):
             请求结果，json格式
         """
         params["appId"] = self.app_id
-        params["appKey"] = self.app_key
         params["timestamp"] = int(time.time() * 1000)
         params["nonce"] = int(random.random() * 100000000)
         params["token"] = self.gen_signature(params["timestamp"], params["nonce"])

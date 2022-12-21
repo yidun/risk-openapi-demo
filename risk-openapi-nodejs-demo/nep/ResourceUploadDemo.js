@@ -13,7 +13,6 @@ var post_data = {
     nonce: utils.noncer(),
 }
 var token = utils.genSignature(appKey, post_data);
-post_data.appKey = appKey;
 post_data.token = token;
 // 2.设置私有参数
 // 上报资源文件数据，游戏方需要从反外挂客户端SDK获取该数据。查看反外挂客户端SDK接入文档，请联系易盾获取。

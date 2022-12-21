@@ -13,7 +13,6 @@ var post_data = {
     nonce: utils.noncer(),
 }
 var token = utils.genSignature(appKey, post_data);
-post_data.appKey = appKey;
 post_data.token = token;
 // 2.设置私有参数
 post_data.roleIds = ["RoT0QAAAnd", "RoT0AAnd001"];

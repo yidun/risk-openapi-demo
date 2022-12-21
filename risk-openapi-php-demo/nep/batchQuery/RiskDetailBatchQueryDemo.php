@@ -17,7 +17,6 @@ require("../../util.php");
 function check($params)
 {
     $params["appId"] = APPID;
-    $params["appKey"] = APPKEY;
     $params["timestamp"] = time() * 1000;// time in milliseconds
     $params["nonce"] = sprintf("%d", rand()); // random int
     $params["token"] = SIGNATURE_METHOD;
