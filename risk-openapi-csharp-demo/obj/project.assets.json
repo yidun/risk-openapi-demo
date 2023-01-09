@@ -83,9 +83,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dongyisheng/Project/risk-openapi-demo/risk-openapi-csharp-demo/MyApp.csproj",
-      "projectName": "MyApp",
-      "projectPath": "/Users/dongyisheng/Project/risk-openapi-demo/risk-openapi-csharp-demo/MyApp.csproj",
+      "projectUniqueName": "/Users/dongyisheng/Project/risk-openapi-demo/risk-openapi-csharp-demo/risk-openapi-demo.csproj",
+      "projectName": "risk-openapi-demo",
+      "projectPath": "/Users/dongyisheng/Project/risk-openapi-demo/risk-openapi-csharp-demo/risk-openapi-demo.csproj",
       "packagesPath": "/Users/dongyisheng/.nuget/packages/",
       "outputPath": "/Users/dongyisheng/Project/risk-openapi-demo/risk-openapi-csharp-demo/obj/",
       "projectStyle": "PackageReference",

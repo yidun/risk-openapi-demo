@@ -9,7 +9,7 @@ namespace Com.Netease.Is.Risk.Demo
     {
         static void Main(string[] args)
         {
-            CheckRoleExistDemo.checkRoleExist();
+            NepResourceUploadDemo.resourceUpload();
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TuveEkd7tAafCBWUfoRjQj9RMwIouuhhd4+CQX2YsxnB/UG/Vakvdf451D81IZ3IJbHCJU9XYgNuX0dQDqTyIQ==",
+  "dgSpecHash": "omlhhUJhAPVteNGDBeubr2tz0dncE4ke96E8xSJSBR89YM6V7FJuGUkn/2LYmN4XHr634hqly+W7vJ0GP+VahQ==",
   "success": true,
-  "projectFilePath": "/Users/dongyisheng/Project/risk-openapi-demo/risk-openapi-csharp-demo/MyApp.csproj",
+  "projectFilePath": "/Users/dongyisheng/Project/risk-openapi-demo/risk-openapi-csharp-demo/risk-openapi-demo.csproj",
   "expectedPackageFiles": [
     "/Users/dongyisheng/.nuget/packages/bouncycastle.crypto.dll/1.8.1/bouncycastle.crypto.dll.1.8.1.nupkg.sha512",
     "/Users/dongyisheng/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
