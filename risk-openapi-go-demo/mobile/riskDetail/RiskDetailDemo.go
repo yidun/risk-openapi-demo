@@ -76,6 +76,19 @@ func main() {
 		"beginDateTime": timestamp,
 		"endDateTime":   timestamp,
 		"formatType":    "1",
+		"roleId":        "",
+		"roleIdList":    strings.Join([]string{"roleId1"}, ","),
+		"account":       "",
+		"accountList":   strings.Join([]string{"acount1"}, ","),
+		"ip":            "",
+		"ipList":        strings.Join([]string{"ip1"}, ","),
+		"packageName":   "",
+		"appVersion":    "",
+		"thirdLevelTagName":    "1",
+		"thirdLevelTagNameList":       strings.Join([]string{"ip1"}, ","),
+		"dataType":      "1"
+
+
 	}
 
 	ret := check(params)

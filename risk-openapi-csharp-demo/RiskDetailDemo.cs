@@ -41,6 +41,28 @@ namespace Com.Netease.Is.Risk.Demo
             // params.Add("startFlag", "");
             // 0: 返回数据格式为LinedText格式; 1: 返回数据格式为JSON格式; 默认为0
             parameters.Add("formatType", "1");
+            // 根据指定角色ID筛选
+            parameters.Add("roleId", "");
+            // 根据角色ID列表批量筛选
+            parameters.Add("roleIdList", JArray.FromObject(roleIds).ToString());
+            // 根据指定账号筛选
+            parameters.Add("account", "");
+            // 根据账号列表批量筛选
+            parameters.Add("accountList", JArray.FromObject(roleIds).ToString());
+            // 根据指定IP筛选
+            parameters.Add("ip", "1");
+            // 根据IP列表批量筛选
+            parameters.Add("ipList", "1");
+            // 根据指定包名/BundleId筛选
+            parameters.Add("packageName", "1");
+            // 根据指定APP版本号筛选
+            parameters.Add("appVersion", "1");
+            // 根据三级标签名称筛选
+            parameters.Add("thirdLevelTagName", "1");
+            // 根据三级标签名称列表批量筛选
+            parameters.Add("thirdLevelTagNameList", JArray.FromObject(roleIds).ToString());
+            // 查询的数据类型，0:异常数据, 1:全部数据; 默认为0, 表示查询异常数据
+            parameters.Add("dataType", "1");
             // 4.发送HTTP请求
             HttpClient client = Utils.makeHttpClient();
             String result = Utils.doPost(client, apiUrl, parameters, 10000);

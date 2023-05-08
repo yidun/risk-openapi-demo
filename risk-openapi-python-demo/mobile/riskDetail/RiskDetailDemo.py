@@ -62,6 +62,17 @@ if __name__ == "__main__":
         "beginDateTime": int(time.time() * 1000),
         "endDateTime": int(time.time() * 1000),
         "formatType": 1,  # 用于分页查询的关联标记
+        "roleId": "",  # 根据指定角色ID筛选
+        "roleIdList": [],  # 根据角色ID列表批量筛选
+        "account": "",  # 根据指定账号筛选
+        "accountList": [],  # 根据账号列表批量筛选
+        "ip": "",  # 根据指定IP筛选
+        "ipList": [],  # 根据IP列表批量筛选
+        "packageName": "",  # 根据指定包名/BundleId筛选
+        "appVersion": "",  # 根据指定APP版本号筛选
+        "thirdLevelTagName": "",  # 根据三级标签名称筛选
+        "thirdLevelTagNameList": [],  # 根据三级标签名称列表批量筛选
+        "dataType": 1,  # 查询的数据类型，0:异常数据, 1:全部数据; 默认为0, 表示查询异常数据
     }
 
     ret = api.check(params)

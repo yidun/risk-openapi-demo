@@ -26,6 +26,17 @@ post_data.endDateTime = new Date().getTime();
 // params.put("startFlag", "");
 // 0: 返回数据格式为LinedText格式; 1: 返回数据格式为JSON格式; 默认为0
 post_data.formatType = 1;
+post_data.roleId = "";
+post_data.roleIdList = [];
+post_data.account = "";
+post_data.accountList = [];
+post_data.ip = "";
+post_data.ipList = [];
+post_data.packageName = "";
+post_data.appVersion = "";
+post_data.thirdLevelTagName = "";
+post_data.thirdLevelTagNameList = [];
+post_data.dataType = 1;
 //http请求结果
 var responseCallback = function (responseData) {
     var data = JSON.parse(responseData);

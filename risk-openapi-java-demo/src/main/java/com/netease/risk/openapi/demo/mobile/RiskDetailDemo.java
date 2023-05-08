@@ -47,6 +47,28 @@ public class RiskDetailDemo {
         // params.put("startFlag", "");
         // 0: 返回数据格式为LinedText格式; 1: 返回数据格式为JSON格式; 默认为0
         params.put("formatType", 1);
+        // 根据指定角色ID筛选
+        params.put("roleId", "");
+        // 根据角色ID列表批量筛选
+        params.put("roleIdList", Arrays.asList());
+        // 根据指定账号筛选
+        params.put("account", "");
+        // 根据账号列表批量筛选
+        params.put("accountList", Arrays.asList());
+        // 根据指定IP筛选
+        params.put("ip", "");
+        // 根据IP列表批量筛选
+        params.put("ipList", Arrays.asList());
+        // 根据指定包名/BundleId筛选
+        params.put("packageName", "");
+        // 根据指定APP版本号筛选
+        params.put("appVersion", "");
+        // 根据三级标签名称筛选
+        params.put("thirdLevelTagName", "");
+        // 根据三级标签名称列表批量筛选
+        params.put("thirdLevelTagNameList", Arrays.asList());
+        // 查询的数据类型，0:异常数据, 1:全部数据; 默认为0, 表示查询异常数据
+        params.put("dataType", 1);
 
         String response = HttpUtil.sendHttpPost(API_URL, JSONObject.toJSONString(params));
         JSONObject jsonObject = JSONObject.parseObject(response, JSONObject.class);

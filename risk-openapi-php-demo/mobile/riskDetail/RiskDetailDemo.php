@@ -48,7 +48,18 @@ function main()
         // 当使用分页查询时，startFlag字段使用上一次返回值填充
         // params.put("startFlag", "");
         // 0: 返回数据格式为LinedText格式; 1: 返回数据格式为JSON格式; 默认为0
-        "formatType" => 1
+        "formatType" => 1,
+        "roleId" => "",
+        "roleIdList" => [],
+        "account" => "",
+        "accountList" => [],
+        "ip" => "",
+        "ipList" => [],
+        "packageName" => "",
+        "appVersion" => "",
+        "thirdLevelTagName" => "",
+        "thirdLevelTagNameList" => [],
+        "dataType" => 1
     );
     var_dump($params);
 
